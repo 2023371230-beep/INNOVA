@@ -112,9 +112,17 @@ body{padding-top:82px;padding-bottom:40px;background:linear-gradient(180deg,#f8f
 	.section-title{font-size:1.75rem}
 	.options-grid{flex-direction:column}
 	.option-card{min-width:100%}
-	.z-section{padding:20px;gap:20px}
+	.option-card img{height:200px;object-fit:cover}
+	.z-section{padding:20px;gap:20px;grid-template-columns:1fr}
+	.z-section .z-media img{height:220px;object-fit:cover;width:100%}
 	.z-section .z-text h2{font-size:1.25rem}
+	.z-section .z-text{order:2}
+	.z-section .z-media{order:1}
+	.z-section.z-alt{grid-template-areas:unset}
+	.z-section.z-alt .z-text{order:2}
+	.z-section.z-alt .z-media{order:1}
 	.feature-card{margin-bottom:1rem}
+	.feature-media img{height:200px}
 	.whatsapp-float{right:12px;bottom:12px;width:56px;height:56px;font-size:1.5rem}
 	.navbar-brand .brand-text{font-size:0.85rem}
 }
