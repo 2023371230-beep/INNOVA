@@ -101,9 +101,22 @@ body{padding-top:82px;padding-bottom:40px;background:linear-gradient(180deg,#f8f
 
 /* Small screens */
 @media (max-width:767px){
-	.hero{flex-direction:column;text-align:center}
+	.hero{flex-direction:column;text-align:center;padding:48px 20px}
 	.hero-left{max-width:100%}
-	.brand-text{display:inline-block}
+	.hero h1{font-size:2rem}
+	.hero p.lead{font-size:1rem}
+	.hero .cta{flex-direction:column;gap:0.5rem}
+	.hero .cta .btn{width:100%}
+	.hero-logo-card{min-width:auto;max-width:100%;margin-top:2rem}
+	.brand-text{display:inline-block;font-size:0.9rem}
+	.section-title{font-size:1.75rem}
+	.options-grid{flex-direction:column}
+	.option-card{min-width:100%}
+	.z-section{padding:20px;gap:20px}
+	.z-section .z-text h2{font-size:1.25rem}
+	.feature-card{margin-bottom:1rem}
+	.whatsapp-float{right:12px;bottom:12px;width:56px;height:56px;font-size:1.5rem}
+	.navbar-brand .brand-text{font-size:0.85rem}
 }
 
 /* Utility */
