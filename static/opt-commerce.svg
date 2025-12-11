@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Icono comercialización">
+  <rect width="120" height="120" rx="12" fill="none" />
+  <g transform="translate(14,14)" fill="#fff">
+    <rect x="0" y="0" width="56" height="40" rx="4" opacity="0.12" />
+    <rect x="0" y="44" width="56" height="14" rx="3" opacity="0.12" />
+    <rect x="60" y="0" width="40" height="56" rx="6" opacity="0.12" />
+  </g>
+  <g transform="translate(20,24)" fill="#fff">
+    <circle cx="10" cy="10" r="10" fill="#fff" opacity="0.95" />
+  </g>
+</svg>

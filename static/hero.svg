@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300" role="img" aria-label="INNOVA hero">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b3d91" />
+      <stop offset="100%" stop-color="#0f5aa0" />
+    </linearGradient>
+    <linearGradient id="spark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a26" />
+      <stop offset="100%" stop-color="#ff6a00" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" rx="14" fill="url(#bg)" />
+
+  <!-- Icon -->
+  <g transform="translate(48,70)">
+    <circle cx="60" cy="60" r="60" fill="#0b3d91" opacity="0.12" />
+    <path d="M30 100 V20 h11 l26 38 26-38 h11 v80 h-11 V58 l-26 34-26-34 v42 z" fill="#f4f7ff" />
+    <path d="M41 24 l26 26 26-26" fill="none" stroke="url(#spark)" stroke-width="7" stroke-linecap="round" />
+    <circle cx="93" cy="24" r="6" fill="url(#spark)" />
+  </g>
+
+  <!-- Text block -->
+  <g transform="translate(210,96)" fill="#f7fbff">
+    <text x="0" y="0" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="28">Soluciones INNOVA</text>
+    <text x="0" y="32" font-family="Montserrat, Arial, sans-serif" font-size="15" opacity="0.9">Logística · Capacitación · Consultoría</text>
+    <text x="0" y="56" font-family="Montserrat, Arial, sans-serif" font-size="15" opacity="0.9">Trade &amp; Consulting Group</text>
+  </g>
+</svg>

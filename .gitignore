@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+instance/
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+
+# Python files (no longer needed for static site)
+*.py
+migrations/
+
+# Testing
+.pytest_cache/
+tests/
+
+# OS
+.DS_Store
+Thumbs.db
